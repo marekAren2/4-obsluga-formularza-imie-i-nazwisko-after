@@ -15,9 +15,7 @@ console.log(`WARSZTAT - Obsługa formularza 'Imię i nazwisko'`);
 
 const getForm = (event) => {
     event.preventDefault();
-
     console.log(form);
-
     let firstN = document.getElementById('fname');
     // console.log("🚀 ~ file: script.js:24 ~ getForm ~ firstN:", firstN);
     let firstL = document.getElementById('lname');
