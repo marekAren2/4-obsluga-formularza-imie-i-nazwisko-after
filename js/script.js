@@ -19,13 +19,15 @@ const getForm = (event) => {
     console.log(form);
 
     let firstN = document.getElementById('fname');
-    console.log("🚀 ~ file: script.js:24 ~ getForm ~ firstN:", firstN);
+    // console.log("🚀 ~ file: script.js:24 ~ getForm ~ firstN:", firstN);
     let firstL = document.getElementById('lname');
-    console.log("🚀 ~ file: script.js:27 ~ getForm ~ firstL:", firstL);
+    // console.log("🚀 ~ file: script.js:27 ~ getForm ~ firstL:", firstL);
+    console.log(`Imie: ${firstN.value} Nazwisko: ${firstL.value}`);
 }
 
 let form = document.getElementById('my-form');
-form.addEventListener('submit', getFom);
+form.addEventListener('submit', getForm);
+
 
 // let myButton = document.getElementById('submit');
 
