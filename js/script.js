@@ -22,7 +22,6 @@ const getForm = (event) => {
     // console.log("🚀 ~ file: script.js:27 ~ getForm ~ firstL:", firstL);
     console.log(`Imie: ${firstN.value} Nazwisko: ${firstL.value}`);
 }
-
 let form = document.getElementById('my-form');
 form.addEventListener('submit', getForm);
 
